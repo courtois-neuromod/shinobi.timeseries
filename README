@@ -5,7 +5,7 @@
 The [Courtois project on Neural Modelling (Courtois NeuroMod)](https://www.cneuromod.ca/) is assembling an extensive dataset of individual human brain activity and behavioural data.
 
 The current subdataset is organized following the [brain imaging data structure (BIDS)](https://bids.neuroimaging.io/) (including extensions in development) and contains:
-- fMRI timeseries extracted with a custom parcellation that includes cortical parcels from Schaefer2018 (1000 parcels, 7 networks), subcortical parcels from Tian (50, S3), and cerebellar parcels from NettekovenAsym128. Run-wise timeseries are saved, per session, as 2D arrays in a nested .hdf5 file for each subject. 
+- fMRI timeseries extracted with a custom parcellation that includes cortical parcels from Schaefer2018 (1000 parcels, 7 networks), subcortical parcels from Tian2020 (S3), and cerebellar parcels from Nettekoven2024 (Asym128). Run-wise timeseries are saved, per session, as 2D arrays in a nested .hdf5 file for each subject. 
 - a brain mask delineating the voxels included in the signal extraction for each subject.
 - a masked parcellation for each subject
 - voxel-wise fMRi timeseries in MNI152NLin2009cAsym and T1w volumetric space for each run completed by each subject
