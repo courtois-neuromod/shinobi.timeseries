@@ -17,3 +17,12 @@ Courtois NeuroMod data are [freely shared with the scientific community](https:/
 ## Code
 
 fMRI timeseries are extracted with scripts from the ``cneuromod_extract_tseries`` library (https://github.com/courtois-neuromod/cneuromod_extract_tseries) installed as a submodule under ``./code``
+
+To extract a subject’s timeseries, run the following bash scripts (run_extract_parcel.sh for parcel extraction, and run_extract_t1w.sh and run_extract_mni.sh for voxelwise extraction in native and MNI space, respectively), specifying the subject’s number.
+
+For example, to extract sub-01’s voxelwise signal in native space:
+```bash
+
+sbatch code/run_extract_t1w.sh  01
+```
+
