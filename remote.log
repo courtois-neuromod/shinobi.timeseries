@@ -1,0 +1,1 @@
+ca74e1b3-ff13-4018-86b6-df8cf5aaacf9 autoenable=true bucket=cneuromod.shinobi.timeseries chunk=1GiB datacenter=US encryption=none host=s3.unf-montreal.ca name=unfs3.cneuromod.shinobi.timeseries port=443 protocol=https requeststyle=path storageclass=STANDARD type=S3 timestamp=1774649050.239669825s
