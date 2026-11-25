@@ -1,9 +1,9 @@
 #!/bin/bash
-#SBATCH --account=rrg-pbellec
+#SBATCH --account=def-pbellec
 #SBATCH --job-name=extract_tseries
-#SBATCH --output=/home/mstlaure/links/scratch/neuromod/shinobi.timeseries/slurm_files/slurm-%A_%a.out
-#SBATCH --error=/home/mstlaure/links/scratch/neuromod/shinobi.timeseries/slurm_files/slurm-%A_%a.err
-#SBATCH --time=12:00:00
+#SBATCH --output=/home/mstlaure/links/scratch/tests/shinobi.timeseries/slurm_files/slurm-%A_%a.out
+#SBATCH --error=/home/mstlaure/links/scratch/tests/shinobi.timeseries/slurm_files/slurm-%A_%a.err
+#SBATCH --time=3:00:00
 #SBATCH --cpus-per-task=24
 #SBATCH --mem-per-cpu=4000M
 #SBATCH --mail-type=ALL
